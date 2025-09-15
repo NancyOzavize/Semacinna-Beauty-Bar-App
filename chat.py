@@ -18,7 +18,7 @@ def chat():
     EMAIL_PASSWORD = "juhw yvcr vlbu ihux"
 
     # === Groq API ===
-    GROQ_API_KEY = "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"
+    GROQ_API_KEY = "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"
     GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
     BUSINESS_CONTEXT = """
@@ -333,5 +333,6 @@ def chat():
             st.session_state.page = "checkout"
 
     
+
 
 
